@@ -49,7 +49,7 @@ nav .nav-right-section .menu{
 /*Imagen estilo*/
 nav .nav-right-section img{
     border-radius: 60px;
-    margin-left: 20px;
+    margin-left: 1px;
     width:35px;
     height: 35px;
 }
@@ -59,7 +59,7 @@ nav .nav-right-section img{
 /*******************************************/
 /*Main*/
 main {
-    margin-top: 150px;
+    margin-top: 100px;
     text-align: center;
 }
 
@@ -141,6 +141,9 @@ main .main-buttons{
 
 main .main-buttons div{
     display: inline-block;
+    /*Margen de los botones*/
+    margin-right: 15px;
+    border: 1px solid #f8f9fa;
 }
 
 main .main-buttons button{
@@ -176,7 +179,7 @@ main .main-buttons button:hover{
 footer{
     background-color:#f2f2f2;
     width: 100%;
-    height: 50%;
+    height: 50px;
     position: absolute;
     font-size: 13px;
     border-top: 1px solid #e4e4e4;
@@ -189,7 +192,7 @@ footer{
 }
 
 footer ul{
-    margin: 10px;
+    margin: 15px;
     list-style: none;
     display: flex;
     padding-left: 0px;
@@ -207,5 +210,11 @@ footer ul li a{
     color: #70757a;
     margin: 10px;
 }
-
-
+footer div{
+    color: #70757a;
+    margin: 10px 100% 10px 24px;
+    justify-self: left;
+}
+hr{
+    border-top: 3px solid#bbb;
+}
